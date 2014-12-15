@@ -1,0 +1,59 @@
+body, html, main{
+  height: 100%;
+}
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+
+}
+.cd-fixed-bg {
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.cd-scrolling-bg {
+	min-height: 100%;
+
+}
+.cd-fixed-bg.cd-bg-1 {
+  background-image: url("../images/road.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../images/road.jpg");
+}
+
+.cd-color-1{
+  background-color: HSLA(200, 69%, 54%, 1);
+}
+.cd-color-2{
+  background-color: HSLA(0, 0%, 20%, 1);
+}
+
+h2 span{
+  border-bottom: 2px solid white;
+}
+
+.jumbotron{
+
+  padding: 180px 0 80px;
+  margin-bottom: 0px;
+}
+
+.about{
+
+text-align: center;
+color: black;
+padding: 180px 0 80px;
+}
+
+.section{
+
+/* padding: 70px 0; */
+}
+
+.container{
+  postion: relative:
+}
