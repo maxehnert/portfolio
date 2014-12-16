@@ -1,3 +1,3 @@
-## Yo, I'm a Readme
+## My personal portfolio
 
-You should probably update me so people looking at your code have an idea what it is being used for :)
+This is my personal portfolio website.
