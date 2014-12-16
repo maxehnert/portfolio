@@ -14,17 +14,23 @@ body {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
+.cd-fixed-bg-end {
+  min-height: 50%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 .cd-scrolling-bg {
 	min-height: 100%;
-
+}
+.cd-scrolling-bg-end {
+  min-height: 60%;
 }
 .cd-fixed-bg.cd-bg-1 {
   background-image: url("../images/IMG_3527.JPG");
 }
-.cd-fixed-bg.cd-bg-2 {
-  background-image: url("../images/road.jpg");
-}
-.cd-fixed-bg.cd-bg-3 {
+.cd-fixed-bg-end.cd-bg-3 {
   background-image: url("../images/road.jpg");
 }
 .cd-color-1{
@@ -36,6 +42,10 @@ body {
 .cd-color-3{
   background-color: black;
 }
+.cd-color-4{
+  background-color: grey;
+}
+
 
 h2 span{
   border-bottom: 2px solid white;
@@ -117,7 +127,7 @@ margin: 0 80px 10px;
 }
 /* END CHARTS */
 
-.my-work{
+.my-work, .contact-head{
   font-family: 'Roboto Slab', serif;
   font-size: 48px;
   font-weight: 600;
@@ -127,9 +137,9 @@ margin: 0 80px 10px;
 
 
 
-/* TEST */
+/* MY PROJECT */
 .view {
-    width: 300px;
+    width: 273px;
     height: 200px;
     margin: 10px;
     float: left;
@@ -139,7 +149,7 @@ margin: 0 80px 10px;
     text-align: center;
     box-shadow: 1px 1px 2px #e6e6e6;
     cursor: default;
-    background: #fff url(../images/Atlanta.jpg) no-repeat center center
+    background: #fff
 }
 .view .mask, .view .content {
     width: 300px;
@@ -151,7 +161,8 @@ margin: 0 80px 10px;
 }
 .view img {
     display: block;
-    position: relative
+    position: relative;
+    width: 100%;
 }
 .view h2 {
     text-transform: uppercase;
@@ -227,4 +238,9 @@ margin: 0 80px 10px;
 }
 .view-first:hover a.info {
     transition-delay: 0.2s;
+}
+
+.contact-head{
+  padding-top: 40px;
+  color: black;
 }
