@@ -9,3 +9,12 @@ $(function() {
     animate: 800
   });
 });
+
+//Navbar change color
+// $('.navbar').waypoint(function() {
+//   $('.navbar').addClass('newColor')
+// }, {
+//   offset: function() {
+//     return -$(this).height();
+//   }
+// });
