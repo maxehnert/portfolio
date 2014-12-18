@@ -18,3 +18,9 @@ $(function() {
 //     return -$(this).height();
 //   }
 // });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+
+$('body').scrollspy({ target: '.navbar-fixed-top' });
